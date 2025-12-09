@@ -25,9 +25,9 @@ const App: React.FC = () => {
   return (
     <AppProvider>
       <Router>
-        <div className="min-h-screen bg-dark-900 flex flex-col">
+        <div className="min-h-screen flex flex-col bg-dark-900 text-white font-sans selection:bg-gold-500 selection:text-black">
           <Navbar />
-          <main className="flex-grow">
+          <main className="flex-grow w-full">
             <Routes>
               <Route path="/" element={
                 <>
